@@ -11,7 +11,7 @@ const SliderSlick = () => {
     pauseOnHover: true,
   };
   return (
-    <div className="lg:w-[800px] lg:h-[300px] lg:ml-[310px] mt-5 w-[300px]  ml-9">
+    <div className="lg:w-[800px] lg:h-[300px] lg:ml-[310px] mt-5 w-[300px]  ml-9 md:w-[400px]">
       <Slider {...settings}>
         <div>
           <img

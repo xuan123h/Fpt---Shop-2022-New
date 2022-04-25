@@ -17,6 +17,7 @@ import DetailBottom from "./DetailBottom";
 import DetailBonus from "./DetailBonus";
 import { useDispatch } from "react-redux";
 import { addCart } from "../redux/action";
+import LoadingSkeleton from "../components/loading/LoadingSkeleton";
 
 // React Toastify
 import { ToastContainer, toast } from "react-toastify";
@@ -66,7 +67,12 @@ const DetailTop = () => {
   }, []);
 
   const Loading = () => {
-    return <>Loading ...</>;
+    return (
+      <>
+        {" "}
+        <LoadingSkeleton />{" "}
+      </>
+    );
   };
   const ShowProduct = () => {
     return (

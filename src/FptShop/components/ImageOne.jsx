@@ -6,15 +6,15 @@ const ImageOne = () => {
       <img
         src="https://images.fpt.shop/unsafe/fit-in/1200x200/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/2/14/637804743080951435_F-H5_1200x200%20(1).png"
         alt=""
-        className="lg:w-[1300px] lg:h-[200px] lg:ml-[337px] lg:mt-[40px]"
+        className="lg:w-[1300px] lg:h-[200px] lg:ml-[337px] lg:mt-[40px] md:w-[470px]"
       />
       <div className="">
         <img
           src="https://fptshop.com.vn/Uploads/images/2015/CTKM-Voucher/Luong%20Ve%202/html-title(1).png"
           alt=""
-          className="lg:w-[1276px] lg:h-[200px] lg:ml-[337px] lg:mt-[40px] bg-red-500 mt-6"
+          className="lg:w-[1276px] lg:h-[200px] lg:ml-[337px] lg:mt-[40px] bg-red-500 mt-6 md:w-[470px]"
         />
-        <p className="lg:ml-[825px] lg:mt-[40px] text-[20px] font-bold text-orange-900 mt-4 ml-[70px]">
+        <p className="lg:ml-[825px] lg:mt-[40px] text-[20px] font-bold text-orange-900 mt-4 ml-[70px] md:ml-[110px]">
           {" "}
           Áp dụng: 01/02 - 28/02 <hr />
         </p>

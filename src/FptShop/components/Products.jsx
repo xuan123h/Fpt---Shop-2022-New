@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ProductRender from "./ProductRender";
+import LoadingSkeleton from "../components/loading/LoadingSkeleton";
 
 const Products = () => {
   const [data, setData] = useState([]);
@@ -29,7 +30,12 @@ const Products = () => {
   }, []);
 
   const Loading = () => {
-    return <>Loading ...</>;
+    return (
+      <>
+        {" "}
+        <LoadingSkeleton />{" "}
+      </>
+    );
   };
 
   const filterProduct = (cat) => {

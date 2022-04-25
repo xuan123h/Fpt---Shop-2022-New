@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ProductHighlight from "../components/ProductHighlight";
-
+import LoadingSkeleton from "../components/loading/LoadingSkeleton";
 const HighlightFeature = () => {
   const [data, setData] = useState([]);
   const [products, setProducts] = useState(data);
@@ -27,7 +27,12 @@ const HighlightFeature = () => {
 
   // Loading
   const Loading = () => {
-    return <>Loading ...</>;
+    return (
+      <>
+        {" "}
+        <LoadingSkeleton />{" "}
+      </>
+    );
   };
   const ShowProducts = () => {
     return (
@@ -47,7 +52,7 @@ const HighlightFeature = () => {
   };
 
   return (
-    <div className="lg:mt-[400px] lg:ml-[330px] lg:w-[1300px] lg:h-[1322px] border border-white bg-white relative mt-[80px]">
+    <div className="lg:mt-[400px] lg:ml-[330px] lg:w-[1300px] lg:h-[1322px] border border-white bg-white relative mt-[80px] md:w-[470px]">
       <div className="flex items-center justify-between">
         <h2 className="w-[280px] h-[26px] text-green-900 text-[20px] font-bold mt-[20px] ml-[30px]">
           {" "}

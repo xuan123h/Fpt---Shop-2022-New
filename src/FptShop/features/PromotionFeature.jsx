@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 // import PromotionList from "../components/PromotionList";
 import { FaCertificate } from "react-icons/fa";
+import LoadingSkeleton from "../components/loading/LoadingSkeleton";
 import ProductFetch2 from "../components/ProductFetch2";
 
 const PromotionFeature = () => {
@@ -29,7 +30,12 @@ const PromotionFeature = () => {
 
   // Loading
   const Loading = () => {
-    return <>Loading ...</>;
+    return (
+      <>
+        {" "}
+        <LoadingSkeleton />{" "}
+      </>
+    );
   };
   const ShowProducts = () => {
     return (
@@ -43,7 +49,7 @@ const PromotionFeature = () => {
     );
   };
   return (
-    <div className="mt-[90px] lg:w-[1280px] lg:ml-[331px] lg:h-[552px] border border-white bg-white">
+    <div className="mt-[90px] lg:w-[1280px] lg:ml-[331px] lg:h-[552px] border border-white bg-white md:w-[470px]">
       <div className="flex items-center ml-[30px] mt-[5px]">
         <li className="list-none w-[25px] h-[30px] text-gray-600 mt-5">
           <FaCertificate />

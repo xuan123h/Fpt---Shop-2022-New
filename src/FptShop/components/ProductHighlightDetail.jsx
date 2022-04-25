@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { addCart } from "../redux/action";
 import FooterDetail2 from "./FooterDetail2";
 import Header from "./Header";
+import LoadingSkeleton from "../components/loading/LoadingSkeleton";
 
 const ProductHighlightDetail = () => {
   const [product, setProduct] = useState([]);
@@ -26,7 +27,12 @@ const ProductHighlightDetail = () => {
   }, []);
 
   const Loading = () => {
-    return <>Loading ...</>;
+    return (
+      <>
+        {" "}
+        <LoadingSkeleton />{" "}
+      </>
+    );
   };
   const ShowProduct = () => {
     return (

@@ -29,8 +29,8 @@ const HtmlTooltip = styled(({ className, ...props }) => (
 }));
 const Navbar = () => {
   return (
-    <div className="relative bg-[#252525] h-9 flex items-center list-none">
-      <div className="flex items-center text-white absolute lg:ml-[310px] ml-1">
+    <div className="relative bg-[#252525] h-9 flex items-center list-none md:w-[470px] lg:w-full">
+      <div className="flex items-center text-white absolute lg:ml-[310px] ml-1 md:ml-[20px]">
         <li className="cursor-pointer">
           {" "}
           <FaMobile />{" "}
@@ -130,7 +130,7 @@ const Navbar = () => {
           </li>
         </HtmlTooltip>
       </div>
-      <div className="flex items-center text-white absolute ml-28 lg:ml-[440px]">
+      <div className="flex items-center text-white absolute ml-28 lg:ml-[440px] md:ml-[130px]">
         <li className="cursor-pointer">
           {" "}
           <FaLaptop />{" "}
@@ -209,7 +209,7 @@ const Navbar = () => {
           </li>
         </HtmlTooltip>
       </div>
-      <div className="flex items-center text-white absolute ml-[195px] lg:ml-[545px]">
+      <div className="flex items-center text-white absolute ml-[195px] lg:ml-[545px] md:ml-[216px]">
         <li className="cursor-pointer">
           {" "}
           <FaAppleAlt />{" "}
@@ -299,7 +299,7 @@ const Navbar = () => {
           </li>
         </HtmlTooltip>
       </div>
-      <div className="flex items-center text-white absolute ml-[270px] lg:ml-[650px]">
+      <div className="flex items-center text-white absolute ml-[270px] lg:ml-[650px] md:ml-[300px]">
         <li className="cursor-pointer">
           {" "}
           <FaDesktop />{" "}

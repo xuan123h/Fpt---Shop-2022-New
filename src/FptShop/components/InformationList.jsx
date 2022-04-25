@@ -3,7 +3,7 @@ import Information from "./Information";
 
 const InformationList = ({ informationList }) => {
   return (
-    <ul className="lg:h-[325px] lg:mt-[100px] flex items-center lg:ml-[301px] flex-wrap lg:w-[1400px] relative ml-[78px] mt-[46px]">
+    <ul className="lg:h-[325px] lg:mt-[100px] flex items-center lg:ml-[301px] flex-wrap lg:w-[1400px] relative ml-[78px] mt-[46px] md:ml-[16px] md:w-[470px]">
       {informationList.map((information) => (
         <li
           key={information.id}

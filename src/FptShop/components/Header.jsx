@@ -110,21 +110,21 @@ const Header = () => {
     <>
       <div>
         <div>
-          <div className="relative lg:h-[56px] text-[#212529] bg-[#CD1818] lg:p-2 lg:w-[1904px] w-[375px] h-[40px]">
-            <div className="lg:max-w-[151px] lg:max-h-[40px] lg:ml-[310px] max-w-[100px] absolute left-[05px] top-[08px]">
+          <div className="relative lg:h-[56px] text-[#212529] bg-[#CD1818]  w-[375px] h-[40px] md:w-[470px] lg:p-2 lg:w-[1904px]">
+            <div className="lg:max-w-[151px] lg:max-h-[40px] lg:ml-[310px] max-w-[100px] absolute left-[05px] top-[08px] md:left-[10px]">
               <Link to="/">
                 <img
                   src="http://fptshop.com.vn/Content/RecurringV3/images/logo-mb.png"
                   alt=""
-                  className="w-full h-full object-cover "
+                  className="w-full h-full object-cover"
                 />
               </Link>
             </div>
-            <div className="absolute lg:top-2 lg:left-[400px] bg-[#FFFFFF] flex items-center justify-between lg:h-[38px] h-[20px] top-[10px] ml-[120px]">
+            <div className="absolute lg:top-2 lg:left-[400px] bg-[#FFFFFF] flex items-center justify-between lg:h-[38px] h-[20px] top-[10px] ml-[120px] md:ml-[130px]">
               <input
                 type="text"
                 placeholder="Nhập tên điện thoại, máy tính, phụ kiện... cần tìm "
-                className="lg:pl-4 lg:w-[540px] lg:h-[38px] border-none rounded-sm outline-none font-bold w-[150px] h-[20px] text-[10px] pl-1 lg:text-lg"
+                className="lg:pl-4 lg:w-[540px] lg:h-[38px] border-none rounded-sm outline-none font-bold w-[150px] h-[20px] text-[10px] pl-1 lg:text-lg md:w-[230px]"
               />
               <li className="list-none lg:translate-x-6 lg:w-[58px] lg:h-[38px] border lg:border-black lg:bg-black text-white flex items-center justify-center cursor-pointer w-[30px] border-orange-500 bg-orange-500 h-[20px] translate-x-2">
                 {" "}
@@ -132,7 +132,7 @@ const Header = () => {
               </li>
             </div>
             <li
-              className="lg:opacity-0 opacity-100 list-none absolute top-3 left-[340px] text-white"
+              className="lg:opacity-0 opacity-100 list-none absolute top-3 left-[340px] text-white md:left-[430px]"
               onClick={handleShowMenu}
             >
               <FaBars />

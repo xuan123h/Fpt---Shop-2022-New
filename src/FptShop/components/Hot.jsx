@@ -19,7 +19,7 @@ import {
 } from "react-icons/fa";
 const Hot = ({ hot }) => {
   return (
-    <div className=" relative lg:h-[340px] list-none mt-[40px] border border-white bg-white lg:ml-[325px] lg:mr-[260px] w-[370px] lg:w-[1300px]">
+    <div className=" relative lg:h-[340px] list-none mt-[40px] border border-white bg-white lg:ml-[325px] lg:mr-[260px] w-[370px] lg:w-[1300px]md:w-[470px] lg:w-[1300px]">
       <div className="mt-[20px] ml-[30px]">
         {" "}
         <h2 className="w-[281px] h-[26px] text-gray-900 text-[20px] font-bold ">

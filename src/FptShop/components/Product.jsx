@@ -5,6 +5,7 @@ import { useParams } from "react-router";
 import { FaStar } from "react-icons/fa";
 import Header from "./Header";
 import { Link } from "react-router-dom";
+import LoadingSkeleton from "../components/loading/LoadingSkeleton";
 
 import Slider from "react-slick";
 const Product = () => {
@@ -41,7 +42,12 @@ const Product = () => {
   };
 
   const Loading = () => {
-    return <>Loading ...</>;
+    return (
+      <>
+        {" "}
+        <LoadingSkeleton />{" "}
+      </>
+    );
   };
   const ShowProduct = () => {
     return (

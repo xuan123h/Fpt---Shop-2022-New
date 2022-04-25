@@ -2,7 +2,7 @@ import React from "react";
 
 const ImageFor = () => {
   return (
-    <div className="lg:h-[190px] flex items-center lg:ml-[330px] lg:my-[50px] border border-white bg-white lg:w-[1300px] mt-6">
+    <div className="lg:h-[190px] flex items-center lg:ml-[330px] lg:my-[50px] border border-white bg-white lg:w-[1300px] mt-6 md:w-[470px]">
       <img
         src="https://images.fpt.shop/unsafe/fit-in/590x160/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/2/15/637805049804600792_F-C3_590x160.png"
         alt=""
